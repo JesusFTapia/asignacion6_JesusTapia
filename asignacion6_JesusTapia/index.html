@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asignación6_JesúsTapia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>The Robins</h1>
+      <p>
+        Desde su primera aparición en los cómics en 1940, Robin ha sido el joven compañero de
+        Batman. El primer Robin, hizo su debut en Detective Comics #38 como un acróbata huérfano que
+        fue adoptado por Bruce Wayne. A lo largo de los años, otros personajes han tomado el manto
+        de Robin, cada uno con su propia historia. Robin no solo representa el rol de compañero,
+        sino también el legado de Batman."
+      </p>
+    </header>
+
+    <section class="nightwing">
+      <h2>Dick Grayson (Nightwing)</h2>
+      <div class="historia">
+        <p>
+          Dick Grayson fue el primer Robin, introducido en 1940 como un joven acróbata que perdió a
+          sus padres y fue adoptado por Bruce Wayne. Sirvió como el compañero de Batman durante
+          muchos años, pero eventualmente decidió independizarse y dejó el manto de Robin. En busca
+          de su propia identidad, adoptó el nombre de Nightwing, convirtiéndose en un héroe que
+          protegía la ciudad de Blüdhaven. A lo largo de los años, ha liderado a los Jóvenes
+          Titanes, ha trabajado junto a la Liga de la Justicia, y ha demostrado ser un héroe
+          autónomo tan capaz como Batman.
+        </p>
+        <img src="Nightwing.jpg" alt="Nightwing" />
+      </div>
+    </section>
+
+    <section class="redhood">
+      <h2>Jason Todd (Red Hood)</h2>
+      <div class="historia">
+        <p>
+          Jason Todd fue el segundo Robin, introducido en los años 80. Era un joven rebelde que
+          vivía en las calles antes de ser tomado por Batman. Sin embargo, Jason murió trágicamente
+          a manos del Joker en el famoso cómic "A Death in the Family". Años más tarde, Jason fue
+          revivido a través del Pozo de Lázaro, lo que lo dejó con una personalidad más oscura y
+          violenta. Al regresar, adoptó el alias de Red Hood, un antiguo seudónimo usado por el
+          Joker, y comenzó a operar como un antihéroe, usando métodos más letales que los de Batman,
+          aunque eventualmente logró reconciliarse con su pasado y su antiguo mentor.
+        </p>
+        <img src="Red_Hood.jpg" alt="RedHood" />
+      </div>
+    </section>
+
+    <section class="redrobin">
+      <h2>Tim Drake</h2>
+      <div class="historia">
+        <p>
+          Tim Drake es el tercer joven en llevar el manto de Robin. Introducido en los 90, Tim es un
+          prodigio que dedujo la identidad secreta de Batman y Robin tras la muerte de Jason Todd.
+          Convencido de que Batman necesitaba un nuevo compañero para mantener su equilibrio, Tim
+          asumió el rol de Robin. A diferencia de sus predecesores, Tim es un detective
+          extremadamente astuto y metódico. Más tarde, decidió crear su propia identidad como Red
+          Robin, permitiéndose operar de manera independiente mientras mantenía una fuerte relación
+          con la Bat-familia.
+        </p>
+        <img src="Red_Robin.jpg" alt="RedRobin" />
+      </div>
+    </section>
+
+    <section class="robin">
+      <h2>Damian Wayne</h2>
+      <div class="historia">
+        <p>
+          Damian Wayne es el hijo biológico de Bruce Wayne y Talia al Ghul, presentado como un niño
+          entrenado por la Liga de Asesinos desde muy joven. Criado para ser un guerrero mortal,
+          Damian inicialmente tenía un carácter violento y arrogante. Tras conocer a su padre,
+          Damian asume el manto de Robin y lucha por controlar sus instintos asesinos mientras
+          intenta cumplir con los ideales de Batman. Aunque es el Robin más joven y conflictivo, su
+          relación con Bruce ha evolucionado, y ha demostrado ser un héroe valiente y capaz, a pesar
+          de sus conflictos internos.
+        </p>
+        <img src="Robin.jpg" alt="Robin" />
+      </div>
+    </section>
+    <section class="robinform">
+      <h2>Formulario de los Robins</h2>
+      <form>
+        <label for="Nombre">Nombre del Robin:</label>
+        <input type="text" id="Nombre" pattern="[A-Za-z\s]+" />
+        <br />
+        <label for="Identidad">Identidad secreta:</label>
+        <input type="text" id="Identidad" />
+        <h3>¿Cuáles de estos robin te gustaron?</h3>
+        <br />
+        <label for="nightwing">Dick Grayson (Nightwing)</label>
+        <input type="checkbox" id="nightwing" name="robin" value="Nightwing" disabled />
+        <br />
+        <label for="redhood">Jason Todd (Red Hood) </label>
+        <input type="checkbox" id="redhood" name="robin" value="Red Hood" checked />
+        <br />
+        <label for="redrobin">Tim Drake (Red Robin)</label>
+        <input type="checkbox" id="redrobin" name="robin" value="Red Robin" />
+        <br />
+        <label for="robin">Damian Wayne (Robin)</label>
+        <input type="checkbox" id="robin" name="robin" value="Damian Wayne" required />
+        <br />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>

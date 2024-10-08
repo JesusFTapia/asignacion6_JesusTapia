@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #70b8cf;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nightwing {
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.redhood {
+    background-color: #dc143c;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.redrobin {
+    background-color: #ff8c00;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.robin {
+    background-color: #32cd32;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.robinform {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.robinform button:active {
+    background-color: green;
+    color: white;
+}
+
+.robinform input[type="checkbox"]:checked {
+    background-color: lightgreen;
+}
+
+.robinform input:empty {
+    border: 1px solid red;
+}
+
+.robinform input:enabled {
+    background-color: white;
+}
+
+.robinform input:focus {
+    border: 2px solid blue;
+    outline: none;
+}
+
+.robinform button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.robinform label:first-child {
+    font-weight: bold;
+}
+
+.robinform input:last-of-type {
+    margin-bottom: 20px;
+}
+
+.robinform input:required {
+    border: 2px solid orange;
+}
+
+.robinform h2:first-of-type {
+    color: darkcyan;
+}
+
+.robinform input:invalid {
+    border: 2px solid red;
+}
+
+.robinform input:optional {
+    color: gray;
+}
+
+.robinform input:disabled {
+    background-color: lightgray;
+    color: darkgray;
+}
+
+.robinform input:read-only {
+    background-color: #f0f0f0;
+}
+
+.robinform input:valid {
+    border: 2px solid green;
+}
+
+.robinform input:out-of-range {
+    border: 2px solid red;
+}
+
+.robinform p:only-child {
+    display: none;
+}
+
+.robinform h2::before {
+    content: "¡";
+}
+
+.robinform h2::after {
+    content: "!";
+}
+
+.robinform label::first-letter {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.robinform input::selection {
+    background: yellow;
+}
+
+.robinform p::first-line {
+    font-weight: bold;
+}
